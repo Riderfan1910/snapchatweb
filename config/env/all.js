@@ -15,8 +15,15 @@ module.exports = {
 			css: [
 				'public/lib/bootstrap/dist/css/bootstrap.css',
 				'public/lib/bootstrap/dist/css/bootstrap-theme.css',
-                '',
-                ''
+                'public/lib/css/font-awesome.min.css',
+                /*
+                'public/lib/css/icon-moon.css',
+                'public/lib/css/animate.css',
+                'public/lib/css/theme-styles.css',
+                'public/lib/css/color-default.css',
+                */
+                'http://shreykumar.com/css/stylish-portfolio.css',
+                'public/lib/css/custom.css'
 			],
 			js: [
 				'public/lib/angular/angular.js',
@@ -24,6 +31,7 @@ module.exports = {
 				'public/lib/angular-ui-router/release/angular-ui-router.js',
 				'public/lib/angular-ui-utils/ui-utils.js',
 				'public/lib/angular-bootstrap/ui-bootstrap-tpls.js',
+                'public/lib/js/modernizr.custom.js',
                 'public/lib/js/jquery-1.11.2.min.js',
                 'public/lib/js/jquery.bxslider.min.js',
                 'public/lib/js/jquery.easing.1.3.js',
@@ -31,7 +39,6 @@ module.exports = {
                 'public/lib/js/jquery.placeholder.js',
                 'public/lib/js/jquery.touchSwipe.js',
                 'public/lib/js/jquery.validate.min.js',
-                'public/lib/js/modernizr.custom.js',
                 'public/lib/js/bootstrap.min.js',
                 'public/lib/js/chart.js',
                 'public/lib/js/color-switcher.js',
