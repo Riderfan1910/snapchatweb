@@ -4,6 +4,7 @@
  * Module dependencies.
  */
 var _ = require('lodash');
+var snapchat = require('snapchat');
 
 /**
  * Extend user's controller
